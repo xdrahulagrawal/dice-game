@@ -40,7 +40,7 @@ function PlayGame() {
 
             <ImageContainer dices={dices} _generateRandomNumber={_generateRandomNumber} />
 
-            <p className='para-dice'>Click on div to roll</p>
+            <p className='para-dice'>Click on dice to roll</p>
             <Score score={score} setScore={setScore} setSelectedNumber={setSelectedNumber} />
         </div>
     )
