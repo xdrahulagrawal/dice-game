@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import PlayGame from './PlayGame'
 import StartGame from './StartGame'
 
 
@@ -7,7 +8,7 @@ function Home() {
     return (
         <>
             {
-                gameStarted ? <></> : <StartGame setGameStarted={setGameStarted} />}
+                gameStarted ? <PlayGame/> : <StartGame setGameStarted={setGameStarted} />}
         </>
     )
 }

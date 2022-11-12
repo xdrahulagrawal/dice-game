@@ -1,5 +1,5 @@
 import dices from '../assests/images/dices.png'
-import '../assests/styles/home.css'
+import '../assests/styles/start-game.css'
 
 function StartGame({ setGameStarted }) {
     return (
