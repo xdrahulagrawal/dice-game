@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import dice1 from '../assests/images/dice1.png'
 import dice2 from '../assests/images/dice2.png'
 import dice3 from '../assests/images/dice3.png'
