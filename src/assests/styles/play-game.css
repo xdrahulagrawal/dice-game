@@ -1,21 +1,21 @@
-.play-game-container{
+.play-game-container {
     display: flex;
     flex-direction: column;
 }
 
-.play-game-container-item1-heading{
+.play-game-container-item1-heading {
     font-size: 32px;
     text-align: center;
 }
 
-.play-game-container-item2-numbers{
+.play-game-container-item2-numbers {
     display: flex;
     justify-content: center;
     margin-top: 20px;
     gap: 20px;
 }
 
-.button-numbers{
+.button-numbers {
     width: 50px;
     height: 50px;
     border: 1px solid black;
@@ -26,7 +26,73 @@
     cursor: pointer;
 }
 
-.button-numbers:hover{
+.button-numbers:hover {
     border: 1px solid blue;
     color: blue;
+}
+
+.button-selected-number{
+    width: 50px;
+    height: 50px;
+    background-color: wheat;
+    border-radius: 4px;
+    color: black;
+    cursor: pointer;
+    color: red;
+    border: 1px solid red;
+}
+.img-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.para-dice {
+    text-align: center;
+    margin-top: -2px;
+}
+
+
+.score-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.score-container-item1 {
+    font-size: 44px;
+    color: blue;
+    align-self: center;
+}
+
+.score-container-item2 {
+    font-size: 32px;
+    color: black;
+    align-self: center;
+}
+
+.button-reset-score {
+    align-self: center;
+    width: 203px;
+    height: 38px;
+    line-height: 38px;
+    background: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 7px;
+    cursor: pointer;
+
+}
+
+.button-reset-score:hover {
+    color: blue;
+    border: 1px solid blue;
+
+}
+
+.green{
+    color: green;
+}
+.red{
+    color: red;
 }
